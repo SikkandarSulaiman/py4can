@@ -1,11 +1,11 @@
 {
 	"dbc_path": "",
-	"channel_name": "CCAN",
+	"channel_name": "",
 	"bus_params": {
-		"bustype": "vector",
-		"app_name": "CANalyzer",
+		"bustype": "",
+		"app_name": "",
 		"channel": 0,
-		"bitrate": 500000,
+		"bitrate": 0,
 		"receive_own_messages": false
 	}
 }
