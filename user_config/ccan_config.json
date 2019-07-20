@@ -1,5 +1,5 @@
 {
-	"dbc_path": "assets/ccan.dbc",
+	"dbc_path": "../assets/ccan.dbc",
 	"channel_name": "CCAN",
 	"bus_params": {
 		"bustype": "vector",

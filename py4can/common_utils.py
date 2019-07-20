@@ -4,6 +4,7 @@ from pathlib import Path
 from functools import wraps
 from functools import partial
 
+
 class KeyFrozenDict(dict):
 	""" Creates a dictionary with initial set of keys, after which
 	new keys cannot be added neither initial keys can be removed"""
@@ -55,9 +56,13 @@ class IndexFrozenList(list):
 		__class__._setitem_callback = new_callback
 
 	def append(self, value): pass
+
 	def extend(self, extn): pass
+
 	def insert(self, pos, value): pass
+
 	def pop(self, index): pass
+
 	def remove(self, value): pass
 
 	def __setitem__(self, index, value):
@@ -82,7 +87,9 @@ def _path_safe(func, exec_dir):
 	return wrapper
 
 
-path_safe = lambda x = None: partial(_path_safe, exec_dir=x)
-exec_in_path = lambda func, path, *args, **kwargs: path_safe(path)(func)(*args, **kwargs)
+def path_safe():
+	return partial(_path_safe, exec_dir=None)
 
-		
+
+def exec_in_path(func, path, *args, **kwargs):
+	return path_safe(path)(func)(*args, **kwargs)
