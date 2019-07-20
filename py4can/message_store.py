@@ -1,4 +1,4 @@
-import cantools_myutils
+import py4can.cantools_myutils as cantools_myutils
 
 
 class MessageStore(object):
@@ -16,10 +16,8 @@ class MessageStore(object):
 			raise e
 		self._init_messages()
 
-
 	def reinitialize(self):
-		self._init_messages();
-
+		self._init_messages()
 
 	def _init_messages(self):
 		for msg in self._dbc_thing.messages:

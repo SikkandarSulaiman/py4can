@@ -1,11 +1,11 @@
 {
-	"dbc_path": "assets/mcan.dbc",
+	"dbc_path": "",
 	"channel_name": "CCAN",
 	"bus_params": {
 		"bustype": "vector",
 		"app_name": "CANalyzer",
-		"channel": 1,
-		"bitrate": 100000,
+		"channel": 0,
+		"bitrate": 500000,
 		"receive_own_messages": false
 	}
 }

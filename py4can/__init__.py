@@ -1,8 +1,8 @@
 from .can_bus import CanBus
-from .MessageStore import MessageStore
+from .message_store import MessageStore
 
-from .Transmitter import Transmitter
-from .Receiver import Receiver
+from .transmitter import Transmitter
+from .receiver import Receiver
 
-import common_utils
-import cantools_myutils
+from . import common_utils
+from . import cantools_myutils
