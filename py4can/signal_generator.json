@@ -1,0 +1,10 @@
+{
+	"CGW_USM1": {
+		"sig": {
+			"CF_Gway_WPCRValue": 1
+		},
+		"cycle_time": 500,
+		"duration": 0,
+		"send": true
+	}
+}

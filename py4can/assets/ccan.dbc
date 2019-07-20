@@ -1,0 +1,1322 @@
+VERSION ""
+
+
+NS_ : 
+ NS_DESC_
+ CM_
+ BA_DEF_
+ BA_
+ VAL_
+ CAT_DEF_
+ CAT_
+ FILTER
+ BA_DEF_DEF_
+ EV_DATA_
+ ENVVAR_DATA_
+ SGTYPE_
+ SGTYPE_VAL_
+ BA_DEF_SGTYPE_
+ BA_SGTYPE_
+ SIG_TYPE_REF_
+ VAL_TABLE_
+ SIG_GROUP_
+ SIG_VALTYPE_
+ SIGTYPE_VALTYPE_
+ BO_TX_BU_
+ BA_DEF_REL_
+ BA_REL_
+ BA_DEF_DEF_REL_
+ BU_SG_REL_
+ BU_EV_REL_
+ BU_BO_REL_
+ SG_MUL_VAL_
+
+BS_:
+
+BU_:
+BO_ 1990 DIAG_RQST: 8 TST
+ SG_ DIAG_RQST : 0|64@1+ (1,0)  [0|0] "" CLU 
+BO_ 1998 DIAG_RSP: 8 CLU
+ SG_ DIAG_RSP : 0|64@1+ (1,0)  [0|0] "" TST 
+BO_ 2015 FUN_DIAG_RQST: 8 TST
+ SG_ FUN_DIAG_RQST : 0|64@1+ (1,0)  [0|0] "" CLU 
+BO_ 1265 CLU11: 4 CLU
+ SG_ CF_Clu_CruiseSwState : 0|3@1+ (1,0)  [0|7] "" CGW
+ SG_ CF_Clu_CruiseSwMain : 3|1@1+ (1,0)  [0|1] "" CGW
+ SG_ CF_Clu_SldMainSW : 4|1@1+ (1,0)  [0|1] "" CGW
+ SG_ CF_Clu_ParityBit1 : 5|1@1+ (1,0)  [0|1] "" CGW
+ SG_ CF_Clu_VanzDecimal : 6|2@1+ (0.125,0)  [0|0.375] "" CGW
+ SG_ CF_Clu_Vanz : 8|9@1+ (0.5,0)  [0|255] "" CGW,MDPS
+ SG_ CF_Clu_SPEED_UNIT : 17|1@1+ (1,0)  [0|1] "" ACU,CGW,ESC,MDPS
+ SG_ CF_Clu_RheostatLevel : 19|5@1+ (1,0)  [0|31] "" CGW
+ SG_ CF_Clu_CluInfo : 24|1@1+ (1,0)  [0|1] "" CGW
+ SG_ CF_Clu_AliveCnt1 : 28|4@1+ (1,0)  [0|15] "" CGW
+BO_ 1456 CLU12: 4 CLU
+ SG_ CF_Clu_Odometer : 0|24@1+ (0.1,0)  [0|1677721.4] "" CGW
+BO_ 1292 CLU13: 8 CLU
+ SG_ CF_Clu_LowfuelWarn : 0|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_RefDetMod : 2|1@1+ (1,0)  [0|1] "" CGW
+ SG_ CF_Clu_AvgFCU : 3|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_AvgFCI : 6|10@1+ (0.1,0)  [0.0|102.2] "" CGW
+ SG_ CF_Clu_DrivingModeSwi : 16|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_DTE : 24|10@1+ (1,0)  [0|1023] "" CGW
+ SG_ CF_Clu_TripUnit : 34|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_SWL_Stat : 36|3@1+ (1,0)  [0|7] "" ACU,CGW
+ SG_ CF_Clu_DrivinglampStat : 44|3@1+ (1,0)  [0|7] "" CGW,ESC,MDPS
+ SG_ CF_Clu_ClusterUSM : 57|2@1+ (1,0)  [0|0] "" CGW
+ SG_ CF_Clu_AltLStatus : 59|1@1+ (1,0)  [0|1] "" CGW
+ SG_ CF_Clu_AliveCnt2 : 60|4@1+ (1,0)  [0|15] "" CGW
+BO_ 1301 CLU14: 8 CLU
+ SG_ CF_Clu_ADrUNValueSet : 0|3@1+ (1,0)  [0|7] "" CGW
+ SG_ CF_Clu_ADrLNValueSet : 3|3@1+ (1,0)  [0|7] "" CGW
+ SG_ CF_Clu_EscortHLNValueSet : 6|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_WlightNValueSet : 20|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_TempUnitNValueSet : 22|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_OTTurnNValueSet : 29|3@1+ (1,0)  [0|7] "" CGW
+ SG_ CF_Clu_AFoldNValueSet : 49|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_PDWSpkrLvNValueSet : 53|3@1+ (1,0)  [0|7] "" CGW
+BO_ 1322 CLU15: 8 CLU
+ SG_ CF_Clu_VehicleSpeed : 0|8@1+ (1,0)  [0|254] "" CGW
+ SG_ CF_Clu_LanguageInfo : 33|5@1+ (1,0)  [0|31] "" Vector__XXX
+ SG_ CF_Clu_ClusterSound : 38|1@1- (1,0)  [0|0] "" CGW
+ SG_ CF_Clu_DisplaySpeed : 48|9@1+ (1,0)  [0|510] "" CGW
+ SG_ CF_Clu_FuelDispLvl : 57|7@1+ (1,0)  [0|0] "" CGW
+BO_ 1307 CLU16: 8 CLU
+ SG_ CF_Clu_TirePressUnitNValueSet : 0|3@1+ (1,0)  [0|7] "" CGW
+ SG_ CF_Clu_RearWiperNValueSet : 12|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_USMReset : 39|1@1+ (1,0)  [0|1] "" CGW
+ SG_ CF_Gway_WPCNValueSet : 40|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_ICUDeliveryModeOffReq : 55|1@1+ (1,0)  [0|1] "" CGW
+BO_ 764 CLU18: 8 CLU
+ SG_ CF_Clu_UnlockWelcomeNValueSet : 16|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_SmartWelcomeNValueSet : 18|2@1+ (1,0)  [0|3] "" CGW
+ SG_ CF_Clu_DrivinglampStatChange : 61|3@1+ (1,0)  [0|7] "" ESC
+BO_ 1190 CLU19: 8 CLU
+ SG_ CF_AVN_CluUSMReset : 3|1@1+ (1,0)  [0|1] "" Vector__XXX
+BO_ 1280 ACU14: 8 ACU
+ SG_ CF_SWL_Ind : 0|2@1+ (1,0)  [0|3] "" CGW,CLU
+BO_ 1345 CGW1: 8 CGW
+ SG_ CF_Gway_RKECmd : 3|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_DrvDrSw : 8|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_TrunkTgSw : 12|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_SMKOption : 16|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_HoodSw : 17|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_TurnSigLh : 19|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_WiperIntT : 21|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_HeadLampHigh : 32|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_AstDrSw : 35|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_LightSwState : 38|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_Frt_Fog_Act : 40|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_DriveTypeOption : 43|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_PassiveAccessUnlock : 48|2@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_InhibitRMT : 54|2@1+ (1,0)  [0|3] "" CLU
+ SG_ C_SunRoofOpenState : 57|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_ParkBrakeSw : 60|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_TurnSigRh : 62|2@1+ (1,0)  [0|3] "" CLU
+BO_ 1363 CGW2: 8 CGW
+ SG_ CF_Gway_ExtTailAct : 8|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_AutoLightValue : 16|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_BrakeFluidSw : 17|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_ICUPowerAutoCutMode : 18|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_AvTail : 20|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_RRDrSw : 23|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_RLDrSw : 24|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_ESCLNotLockedWarn : 36|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_ESCLNotUnlockWarn : 37|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_IDoutWarn : 38|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_ImmoLp : 40|1@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_VehicleNotPWarn : 44|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_DeactivationWarn : 45|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_KeyBATDischargeWarn : 46|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_SSBWarn : 47|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_SMKRKECmd : 51|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_KeyoutLp : 56|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Gway_SMKDispWarn : 57|4@1+ (1,0)  [0|15] "" CLU
+ SG_ CF_Gway_WngBuz : 61|3@1+ (1,0)  [0|7] "" CLU
+BO_ 1312 CGW3: 8 CGW
+ SG_ CF_Gway_AccINDforCLU : 60|1@1+ (1,0)  [0|1] "" CLU
+BO_ 1369 CGW4: 8 CGW
+ SG_ CF_Gway_WiperSwState : 18|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_DrvSeatBeltIND : 36|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_AstSeatBeltIND : 38|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_RrWiperSwState : 46|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_WPCWarning : 56|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_SeatBeltWngBuz : 63|1@1+ (1,0)  [0|1] "" CLU
+BO_ 127 CGW5: 8 CGW
+ SG_ C_StopLampLhOpenSts : 0|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_StopLampRhOpenSts : 1|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_HMSLOpenSts : 2|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_HLampLowLhOpenSts : 3|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_HLampLowRhOpenSts : 4|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_HLampHighLhOpenSts : 5|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_HLampHighRhOpenSts : 6|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_FrontFOGLhOpenSts : 11|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_FrontFOGRhOpenSts : 12|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_RearTSIGLhOpenSts : 17|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_RearTSIGRhOpenSts : 18|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_FrontTSIGLhOpenSts : 19|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_FrontTSIGRhOpenSts : 20|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_SBendingLhOpenSts : 21|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_SBendingRhOpenSts : 22|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_HLampBifuncLhOpenSts : 25|1@1+ (1,0)  [0|1] "" CLU
+ SG_ C_HLampBifuncRhOpenSts : 26|1@1+ (1,0)  [0|1] "" CLU
+BO_ 1294 CGW6: 8 CGW
+ SG_ CF_Gway_BCMWarning : 0|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_WelcomeSysTitleOption : 29|3@1+ (1,0)  [0|0] "" CLU
+BO_ 1107 CGW_PC1: 5 CGW
+ SG_ CR_Fatc_OutTempSns : 16|8@1+ (0.5,0)  [-40|60] "" CLU
+BO_ 1225 CGW_PC12: 8 CGW
+ SG_ CF_TCU_AvgCltTemp : 0|4@1+ (1,0)  [0|15] "" CLU
+BO_ 1384 CGW_PC2: 8 CGW
+ SG_ L_MIL : 10|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Tcu_DriWarn1 : 19|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Tcu_DriWarn2 : 22|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Tcu_GSel_BlinkReq : 37|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Tcu_DrivingModeDisp : 45|3@1+ (1,0)  [0|7] "" CLU
+ SG_ BAT_SOC : 48|8@1+ (1,0)  [0|100] "" CLU
+ SG_ CF_Tcu_DrivingModeReq : 56|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Tcu_DriWarn3 : 59|2@1+ (1,0)  [0|3] "" CLU
+ SG_ Bat_dischrg : 61|1@1+ (1,0)  [0|1] "" CLU
+BO_ 1394 CGW_PC3: 8 CGW
+ SG_ TPMS_W_LAMP : 48|2@1+ (1,0)  [0|3] "" CLU
+ SG_ HILL_HOLD_WARNING : 56|1@1+ (1,0)  [0|0] "" CLU
+ SG_ Clutch_Burst_Warning : 57|1@1+ (1,0)  [0|1] "" CLU
+ SG_ Vehicle_Stop_Time : 58|5@1+ (1,0)  [0|0] "" CLU
+BO_ 870 CGW_PC4: 7 CGW
+ SG_ N : 8|16@1+ (0.25,0)  [0|16383.75] "" CLU,MDPS
+ SG_ F_N_ENG : 49|1@1+ (1,0)  [0|1] "" CLU
+BO_ 871 CGW_PC5: 8 CGW
+ SG_ SLD_VS : 0|8@1+ (1,0)  [0|255] "" CLU
+ SG_ CF_Ems_IsgStat : 8|3@1+ (1,0)  [0|7] "" CLU,MDPS
+ SG_ CF_Ems_UpTarGr : 13|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Ems_DownTarGr : 14|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Ems_DesCurGr : 16|4@1+ (1,0)  [0|15] "" CLU
+ SG_ G_SEL_DISP : 32|4@1+ (1,0)  [0|15] "" CLU,MDPS
+ SG_ GEAR_TYPE : 36|4@1+ (1,0)  [0|15] "" CLU
+BO_ 872 CGW_PC6: 8 CGW
+ SG_ VS_TCU : 8|8@1+ (1,0)  [0|254] "" CLU
+ SG_ VS_TCU_DECIMAL : 16|8@1+ (0.0078125,0)  [0|0.9921875] "" CLU
+ SG_ CF_Tcu_TarGr : 32|4@1+ (1,0)  [0|15] "" CLU
+ SG_ TCU_RPM_Cluster : 40|16@1+ (0.25,0)  [0|16383.5] "" CLU
+ SG_ TCU_RPM_Flag : 56|1@1+ (1,0)  [0|0] "" CLU
+ SG_ TCU_TYPE : 61|2@1+ (1,0)  [0|3] "" CLU
+BO_ 854 CGW_PC8: 8 CGW
+ SG_ FCO : 32|16@1+ (0.128,0)  [0|8388.48] "" CLU
+BO_ 1040 CGW_USM1: 8 CGW
+ SG_ CF_Gway_EscortHLRValue : 4|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_ADrLRValue : 8|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_ADrURValue : 11|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_WlightRValue : 16|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_OTTurnRValue : 21|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_RearWiperRValue : 38|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_WPCRValue : 60|2@1+ (1,0)  [0|3] "" CLU
+BO_ 1042 CGW_USM2: 8 CGW
+ SG_ CF_Gway_AFoldRValue : 0|2@1+ (1,0)  [0|3] "" CLU
+BO_ 67 DATC13: 8 CGW
+ SG_ CF_Datc_TempDispUnit : 0|2@1+ (1,0)  [0|3] "" CLU
+BO_ 809 EMS12: 8 CGW
+ SG_ TEMP_ENG : 8|8@1+ (0.75,0)  [-48|143.25] "" CLU
+BO_ 608 EMS16: 8 CGW
+ SG_ GLOW_STAT : 24|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CRUISE_LAMP_M : 25|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CRUISE_LAMP_S : 26|1@1+ (1,0)  [0|1] "" CLU
+ SG_ ENG_STAT : 28|3@1+ (1,0)  [0|7] "" CLU,MDPS
+BO_ 1170 EMS19: 8 CGW
+ SG_ DPF_LAMP_STAT : 40|2@1+ (1,0)  [0|3] "" CLU
+ SG_ BAT_LAMP_STAT : 42|1@1+ (1,0)  [0|1] "" CLU
+ SG_ CF_Ems_OPSFail : 56|1@1+ (1,0)  [0|1] "" CLU
+BO_ 1078 PDW11: 4 CGW
+ SG_ CF_Gway_PDWRsound : 6|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_PDWDisplayRCTR : 11|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_PDWDisplayRLH : 16|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_PDWDisplayRRH : 19|3@1+ (1,0)  [0|7] "" CLU
+ SG_ CF_Gway_PDWCheckSound : 22|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_PDWSystemOn : 24|2@1+ (1,0)  [0|3] "" CLU
+ SG_ CF_Gway_PDWOption : 26|2@1+ (1,0)  [0|3] "" CLU
+BO_ 354 TCU_DCT13: 3 CGW
+ SG_ Cluster_Engine_RPM : 10|13@1+ (0.9766,0)  [0|0] "" CLU
+ SG_ Cluster_Engine_RPM_Flag : 23|1@1+ (1,0)  [0|0] "" CLU
+BO_ 1427 TPMS11: 6 CGW
+ SG_ TPMS_W_LAMP : 0|2@1+ (1,0)  [0|3] "" CLU
+ SG_ TREAD_W_LAMP : 2|2@1+ (1,0)  [0|3] "" CLU
+ SG_ POS_FL_W_LAMP : 4|1@1+ (1,0)  [0|1] "" CLU
+ SG_ POS_FR_W_LAMP : 5|1@1+ (1,0)  [0|1] "" CLU
+ SG_ POS_RL_W_LAMP : 6|1@1+ (1,0)  [0|1] "" CLU
+ SG_ POS_RR_W_LAMP : 7|1@1+ (1,0)  [0|1] "" CLU
+ SG_ STATUS_TPMS : 8|3@1+ (1,0)  [0|0] "" CLU
+ SG_ UNIT : 11|2@1+ (1,0)  [0|3] "" CLU
+ SG_ PRESSURE_FL : 16|8@1+ (1,0)  [0|255] "" CLU
+ SG_ PRESSURE_FR : 24|8@1+ (1,0)  [0|255] "" CLU
+ SG_ PRESSURE_RL : 32|8@1+ (1,0)  [0|255] "" CLU
+ SG_ PRESSURE_RR : 40|8@1+ (1,0)  [0|255] "" CLU
+BO_ 902 WHL_SPD11: 8 CGW
+ SG_ WHL_SPD_FL : 0|14@1+ (0.03125,0)  [0|511.96875] "" CLU,MDPS
+ SG_ WHL_SPD_FR : 16|14@1+ (0.03125,0)  [0|511.96875] "" CLU,MDPS
+ SG_ WHL_SPD_RL : 32|14@1+ (0.03125,0)  [0|511.96875] "" CLU,MDPS
+ SG_ WHL_SPD_RR : 48|14@1+ (0.03125,0)  [0|511.96875] "" CLU,MDPS
+BO_ 1287 TCS15: 4 ESC
+ SG_ ABS_W_LAMP : 0|1@1+ (1,0)  [0|1] "" CLU
+ SG_ TCS_OFF_LAMP : 1|2@1+ (1,0)  [0|1] "" CLU
+ SG_ TCS_LAMP : 3|2@1+ (1,0)  [0|3] "" CLU
+ SG_ ESC_Off_Step : 8|2@1+ (1,0)  [0|3] "" CLU
+ SG_ AVH_CLU : 16|8@1+ (1,0)  [0|255] "" CLU
+ SG_ EBD_W_LAMP : 26|1@1+ (1,0)  [0|1] "" CLU
+ SG_ AVH_ALARM : 27|2@1+ (1,0)  [0|3] "" CLU
+ SG_ AVH_LAMP : 29|3@1+ (1,0)  [0|7] "" CGW,CLU
+BO_ 897 MDPS11_FS: 8 MDPS
+ SG_ CF_Mdps_WLmp : 0|2@1+ (1,0)  [0|3] "" CGW,CLU,ESC
+
+CM_ SG_ 1265 CF_Clu_RheostatLevel "Rheostat Level from CLUSTER";
+CM_ SG_ 1265 CF_Clu_AliveCnt1 "In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 1292 CF_Clu_AltLStatus "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1292 CF_Clu_AliveCnt2 "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1301 CF_Clu_WlightNValueSet "Request to set Welcome Light Option";
+CM_ SG_ 1322 CF_Clu_ClusterSound "Sound type of Cluster";
+CM_ SG_ 1307 CF_Clu_TirePressUnitNValueSet "Request to set Tire Pressure Unit";
+CM_ SG_ 764 CF_Clu_UnlockWelcomeNValueSet "Request to set Door Unlock Welcome System Setting";
+CM_ SG_ 764 CF_Clu_SmartWelcomeNValueSet "Request to set Smartkey Welcome System Setting";
+CM_ SG_ 1345 CF_Gway_LightSwState "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1345 CF_Gway_DriveTypeOption "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1345 CF_Gway_PassiveAccessUnlock "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1345 CF_Gway_InhibitRMT "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_ExtTailAct "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_AvTail "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_RRDrSw "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_RLDrSw "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_ESCLNotLockedWarn "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_ESCLNotUnlockWarn "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_IDoutWarn "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_ImmoLp "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_VehicleNotPWarn "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_DeactivationWarn "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_KeyBATDischargeWarn "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_SSBWarn "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_SMKRKECmd "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1363 CF_Gway_WngBuz "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1107 CR_Fatc_OutTempSns "PTCAN 4WD11  FATC11 Indirect routing message This  is for the 4WD ECU MAGNA  WIA JV system applied vehicles only";
+CM_ SG_ 1384 L_MIL "PTCAN EMS14EMS15AAF11TCU14PSB11  Indirect routing message In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 1384 CF_Tcu_DriWarn1 "PTCAN EMS14EMS15AAF11TCU14PSB11  Indirect routing message In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 1384 CF_Tcu_DriWarn2 "PTCAN EMS14EMS15AAF11TCU14PSB11  Indirect routing message In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 1384 CF_Tcu_DrivingModeDisp "This signal is for Smart Shift";
+CM_ SG_ 1384 BAT_SOC "This signal is Battery SOC from battery sensor";
+CM_ SG_ 1384 CF_Tcu_DrivingModeReq "This signal is for Smart Shift System";
+CM_ SG_ 1384 CF_Tcu_DriWarn3 "This message is for the DCTDouble Clutch TM system applied vehicles only";
+CM_ SG_ 1384 Bat_dischrg "The signal indicates the status of the batt discharge notification flag";
+CM_ SG_ 870 N "PTCAN EMS11 Indirect routing message In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 870 F_N_ENG "PTCAN EMS11 Indirect routing message In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 871 SLD_VS "PTCAN EMS_H12  TCU11 Indirect routing message In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 871 CF_Ems_IsgStat "PTCAN EMS_H12  TCU11 Indirect routing message In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 871 CF_Ems_UpTarGr "PTCAN EMS_H12  TCU11 Indirect routing message In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 871 CF_Ems_DownTarGr "PTCAN EMS_H12  TCU11 Indirect routing message In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 871 CF_Ems_DesCurGr "PTCAN EMS_H12  TCU11 Indirect routing message In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 871 G_SEL_DISP "PTCAN EMS_H12  TCU11 Indirect routing message ";
+CM_ SG_ 871 GEAR_TYPE "PTCAN EMS_H12  TCU11 Indirect routing message ";
+CM_ SG_ 872 VS_TCU "PTCAN TCU12  TCU13  Indirect routing message";
+CM_ SG_ 872 VS_TCU_DECIMAL "PTCAN TCU12  TCU13  Indirect routing message";
+CM_ SG_ 872 CF_Tcu_TarGr "PTCAN TCU12  TCU13  Indirect routing message";
+CM_ SG_ 854 FCO "PTCAN LVR11EMS20LPI11TCU_DCT11 Indirect routing message";
+CM_ SG_ 1040 CF_Gway_EscortHLRValue "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1040 CF_Gway_ADrLRValue "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1040 CF_Gway_ADrURValue "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1040 CF_Gway_WlightRValue "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 67 CF_Datc_TempDispUnit "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 809 TEMP_ENG "In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 608 GLOW_STAT "In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 608 CRUISE_LAMP_M "In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 608 CRUISE_LAMP_S "In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 608 ENG_STAT "In case of Delphi ECU Output period tolerance1ms will be applied to Engine Lamda3";
+CM_ SG_ 1078 CF_Gway_PDWRsound "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1078 CF_Gway_PDWDisplayRCTR "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1078 CF_Gway_PDWDisplayRLH "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1078 CF_Gway_PDWDisplayRRH "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 1078 CF_Gway_PDWCheckSound "This signal is for IPM Gateway applied vehicles only";
+CM_ SG_ 354 Cluster_Engine_RPM "Engine RPM only for the display on Cluster";
+CM_ SG_ 1287 AVH_CLU "This message is for EPB Electric Parking Brake system applied vehicle only";
+CM_ SG_ 1287 AVH_ALARM "This message is for EPB Electric Parking Brake system applied vehicle only";
+CM_ SG_ 1287 AVH_LAMP "This message is for EPB Electric Parking Brake system applied vehicle only";
+
+BA_DEF_ SG_  "SigOldType" ENUM  "No","Yes";
+BA_DEF_ SG_  "Platform" STRING ;
+BA_DEF_ SG_  "SigDescription" STRING ;
+BA_DEF_ SG_  "Validity" ENUM  "B+","ACC","IGN1","IGN2";
+BA_DEF_ SG_  "UpdateRateMin" INT 0 0;
+BA_DEF_ SG_  "UpdateRateMax" INT 0 0;
+BA_DEF_ SG_  "UndefinedValueRangeBegin" INT 0 0;
+BA_DEF_ SG_  "TimeoutValue" STRING ;
+BA_DEF_ SG_  "Purpose" ENUM  "<t.b.d.>","Function","Diagnostic","Development","NM";
+BA_DEF_ SG_  "NmNetworkRequestHoldingTime" INT 0 65535;
+BA_DEF_ SG_  "NmNetworkRequest" ENUM  "No","Yes";
+BA_DEF_ SG_  "Gatewaysignal" ENUM  "No","M-B","B-M","M-C","C-M","M-C-B";
+BA_DEF_ SG_  "ConversionFormula" STRING ;
+BA_DEF_ SG_  "Accuracy" STRING ;
+BA_DEF_ BO_  "TpTxIndex" INT 0 255;
+BA_DEF_ BO_  "TpMessage" ENUM  "No","Yes";
+BA_DEF_ BO_  "RoutingType" ENUM  "<n.a.>","Direct","Indirect";
+BA_DEF_ BO_  "GenMsgMinAcceptLength" INT 0 0;
+BA_DEF_ BO_  "GenMsgEVName" STRING ;
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BU_  "TpTxIdentifier" HEX 0 0;
+BA_DEF_ BU_  "TpRxIdentifier" HEX 0 0;
+BA_DEF_  "RevisionInfo" STRING ;
+BA_DEF_ SG_  "SignalCategory" HEX 10 15;
+BA_DEF_ SG_  "GwSigMissingSourceType" ENUM  "Undef","OldValue","DefaultValue","InitialValue";
+BA_DEF_ SG_  "GwSigLatencyTime" INT 0 65535;
+BA_DEF_ SG_  "GenSigEVName" STRING ;
+BA_DEF_ SG_  "GenSigEnvVarType" ENUM  "Int","Float","Undef";
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 2000;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 3;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 0;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 20;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 500;
+BA_DEF_ BU_  "NmNode" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmCAN" INT 1 2;
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "GenNodSleepTime" INT 1375 1650;
+BA_DEF_  "VersionYear" INT 0 9999;
+BA_DEF_  "VersionWeek" INT 1 53;
+BA_DEF_  "VersionNumberInternal" INT 0 9999;
+BA_DEF_  "VersionNumber" INT 0 9999;
+BA_DEF_  "VersionMonth" INT 1 12;
+BA_DEF_  "VersionDay" INT 1 31;
+BA_DEF_  "SyncJumpWidthMin" INT 1 4;
+BA_DEF_  "SyncJumpWidthMax" INT 1 8;
+BA_DEF_  "SamplePointMin" INT 55 85;
+BA_DEF_  "SamplePointMax" INT 50 85;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_  "NmMessageCount" INT 0 128;
+BA_DEF_  "NmBaseAddress" HEX 0 2047;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_  "GenNWMTalkNM" STRING ;
+BA_DEF_  "GenNWMSleepTime" INT 1375 1650;
+BA_DEF_  "GenNWMGotoMode_BusSleep" STRING ;
+BA_DEF_  "GenNWMGotoMode_Awake" STRING ;
+BA_DEF_  "GenNWMApCanWakeUp" STRING ;
+BA_DEF_  "GenNWMApCanSleep" STRING ;
+BA_DEF_  "GenNWMApCanOn" STRING ;
+BA_DEF_  "GenNWMApCanOff" STRING ;
+BA_DEF_  "GenNWMApCanNormal" STRING ;
+BA_DEF_  "GenNWMApBusSleep" STRING ;
+BA_DEF_  "GenEnvVarPrefix" STRING ;
+BA_DEF_  "GenEnvVarEndingSnd" STRING ;
+BA_DEF_  "GenEnvVarEndingDsp" STRING ;
+BA_DEF_  "Baudrate" INT 50000 1000000;
+BA_DEF_ SG_  "ValueTableE" STRING ;
+BA_DEF_ SG_  "CommentRxE" STRING ;
+BA_DEF_ SG_  "CommentRxJ" STRING ;
+BA_DEF_ SG_  "CommentTxE" STRING ;
+BA_DEF_ SG_  "CommentTxJ" STRING ;
+BA_DEF_ SG_  "DescriptionE" STRING ;
+BA_DEF_ SG_  "DescriptionJ" STRING ;
+BA_DEF_ SG_  "GenSigStartValue" INT 0 3000;
+BA_DEF_ BO_  "PS" ENUM  "+B","ACC","IG1","IG2","*","vector_leerstring";
+BA_DEF_ BO_  "PF" HEX 0 65535;
+BA_DEF_ BO_  "PRI" INT 0 7;
+BA_DEF_ BO_  "FrameType" INT 0 2;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","not_used","not_used","not_used","Combined(Event/Periodic)","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BU_  "NmStationAddress" HEX 0 0;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_REL_ BU_SG_REL_  "GenSigTimeoutTime" INT 0 7000;
+BA_DEF_REL_ BU_SG_REL_  "GenSigTimeoutMsg" HEX 0 2047;
+BA_DEF_DEF_  "SigOldType" "No";
+BA_DEF_DEF_  "Platform" "DIS 2,Premium AVN 2.0,Standard AVN 4.0,Integrated AVN1.0 High,Integrated AVN1.0 Mid,Compact AVN,EU AVN 2.0,D-Audio,UVO3 (D-Audio Kia),Standard Audio 3.0,Standard Audio 4.0,Economic Audio 3.0";
+BA_DEF_DEF_  "SigDescription" "";
+BA_DEF_DEF_  "Validity" "ACC";
+BA_DEF_DEF_  "UpdateRateMin" 0;
+BA_DEF_DEF_  "UpdateRateMax" 0;
+BA_DEF_DEF_  "UndefinedValueRangeBegin" 0;
+BA_DEF_DEF_  "TimeoutValue" "";
+BA_DEF_DEF_  "Purpose" "<t.b.d.>";
+BA_DEF_DEF_  "NmNetworkRequestHoldingTime" 0;
+BA_DEF_DEF_  "NmNetworkRequest" "No";
+BA_DEF_DEF_  "Gatewaysignal" "No";
+BA_DEF_DEF_  "ConversionFormula" "";
+BA_DEF_DEF_  "Accuracy" "";
+BA_DEF_DEF_  "TpTxIndex" 0;
+BA_DEF_DEF_  "TpMessage" "No";
+BA_DEF_DEF_  "RoutingType" "<n.a.>";
+BA_DEF_DEF_  "GenMsgMinAcceptLength" 0;
+BA_DEF_DEF_  "GenMsgEVName" "@Signame";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "TpTxIdentifier" 0;
+BA_DEF_DEF_  "TpRxIdentifier" 0;
+BA_DEF_DEF_  "RevisionInfo" "";
+BA_DEF_DEF_  "SignalCategory" 12;
+BA_DEF_DEF_  "GwSigMissingSourceType" "Undef";
+BA_DEF_DEF_  "GwSigLatencyTime" 40;
+BA_DEF_DEF_  "GenSigEVName" "@Signame";
+BA_DEF_DEF_  "GenSigEnvVarType" "Undef";
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 20;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 40;
+BA_DEF_DEF_  "NmNode" "No";
+BA_DEF_DEF_  "NmCAN" 1;
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "GenNodSleepTime" 1500;
+BA_DEF_DEF_  "VersionYear" 2010;
+BA_DEF_DEF_  "VersionWeek" 1;
+BA_DEF_DEF_  "VersionNumberInternal" 0;
+BA_DEF_DEF_  "VersionNumber" 0;
+BA_DEF_DEF_  "VersionMonth" 1;
+BA_DEF_DEF_  "VersionDay" 1;
+BA_DEF_DEF_  "SyncJumpWidthMin" 2;
+BA_DEF_DEF_  "SyncJumpWidthMax" 3;
+BA_DEF_DEF_  "SamplePointMin" 75;
+BA_DEF_DEF_  "SamplePointMax" 82;
+BA_DEF_DEF_  "NmType" "Vector";
+BA_DEF_DEF_  "NmMessageCount" 128;
+BA_DEF_DEF_  "NmBaseAddress" 1024;
+BA_DEF_DEF_  "Manufacturer" "HMC";
+BA_DEF_DEF_  "GenNWMTalkNM" "TalkNM()";
+BA_DEF_DEF_  "GenNWMSleepTime" 1500;
+BA_DEF_DEF_  "GenNWMGotoMode_BusSleep" "GotoMode_BusSleep()";
+BA_DEF_DEF_  "GenNWMGotoMode_Awake" "GotoMode_Awake()";
+BA_DEF_DEF_  "GenNWMApCanWakeUp" "ApplCanWakeUp()";
+BA_DEF_DEF_  "GenNWMApCanSleep" "ApplNmCanSleep()";
+BA_DEF_DEF_  "GenNWMApCanOn" "ApplCanOnline()";
+BA_DEF_DEF_  "GenNWMApCanOff" "ApplCanOffline()";
+BA_DEF_DEF_  "GenNWMApCanNormal" "ApplNmCanNormal()";
+BA_DEF_DEF_  "GenNWMApBusSleep" "ApplNmCanBusSleep()";
+BA_DEF_DEF_  "GenEnvVarPrefix" "Env";
+BA_DEF_DEF_  "GenEnvVarEndingSnd" "_";
+BA_DEF_DEF_  "GenEnvVarEndingDsp" "Dsp_";
+BA_DEF_DEF_  "Baudrate" 500000;
+BA_DEF_DEF_  "ValueTableE" "";
+BA_DEF_DEF_  "CommentRxE" "";
+BA_DEF_DEF_  "CommentRxJ" "";
+BA_DEF_DEF_  "CommentTxE" "";
+BA_DEF_DEF_  "CommentTxJ" "";
+BA_DEF_DEF_  "DescriptionE" "";
+BA_DEF_DEF_  "DescriptionJ" "";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "PS" "";
+BA_DEF_DEF_  "PF" 0;
+BA_DEF_DEF_  "PRI" 0;
+BA_DEF_DEF_  "FrameType" 2;
+BA_DEF_DEF_  "GenSigSendType" "";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_DEF_DEF_REL_ "GenSigTimeoutTime" 500;
+BA_DEF_DEF_REL_ "GenSigTimeoutMsg" 0;
+BA_ "DBName" "Hyundai";
+BA_ "DiagResponse" BO_ 1998 1;
+BA_ "GenMsgILSupport" BO_ 1990 0;
+BA_ "DiagRequest" BO_ 1990 1;
+BA_ "GenMsgILSupport" BO_ 2015 0;
+BA_ "DiagState" BO_ 2015 1;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_ADrUNValueSet 2;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_ADrLNValueSet 2;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_EscortHLNValueSet 2;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_WlightNValueSet 2;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_TempUnitNValueSet 2;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_OTTurnNValueSet 2;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_AFoldNValueSet 2;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_PDWSpkrLvNValueSet 2;
+BA_ "GenSigSendType" SG_ 1307 CF_Clu_TirePressUnitNValueSet 2;
+BA_ "GenSigSendType" SG_ 1307 CF_Clu_RearWiperNValueSet 2;
+BA_ "GenSigSendType" SG_ 1307 CF_Clu_USMReset 2;
+BA_ "GenSigSendType" SG_ 1307 CF_Gway_WPCNValueSet 2;
+BA_ "GenSigSendType" SG_ 1307 CF_Clu_ICUDeliveryModeOffReq 2;
+BA_ "GenSigSendType" SG_ 764 CF_Clu_UnlockWelcomeNValueSet 2;
+BA_ "GenSigSendType" SG_ 764 CF_Clu_SmartWelcomeNValueSet 2;
+BA_ "GenSigSendType" SG_ 764 CF_Clu_DrivinglampStatChange 2;
+BA_ "GenSigSendType" SG_ 1190 CF_AVN_CluUSMReset 2;
+BA_ "GenMsgCycleTime" BO_ 1990 0;
+BA_ "GenMsgSendType" BO_ 1990 1;
+BA_ "GenMsgCycleTime" BO_ 1998 0;
+BA_ "GenMsgSendType" BO_ 1998 1;
+BA_ "GenMsgCycleTime" BO_ 2015 0;
+BA_ "GenMsgSendType" BO_ 2015 1;
+BA_ "GenMsgCycleTime" BO_ 1265 20;
+BA_ "GenMsgSendType" BO_ 1265 0;
+BA_ "GenMsgCycleTime" BO_ 1456 1000;
+BA_ "GenMsgSendType" BO_ 1456 0;
+BA_ "GenMsgCycleTime" BO_ 1292 100;
+BA_ "GenMsgSendType" BO_ 1292 0;
+BA_ "GenMsgCycleTime" BO_ 1301 0;
+BA_ "GenMsgSendType" BO_ 1301 1;
+BA_ "GenMsgCycleTime" BO_ 1322 200;
+BA_ "GenMsgSendType" BO_ 1322 5;
+BA_ "GenMsgCycleTime" BO_ 1307 0;
+BA_ "GenMsgSendType" BO_ 1307 1;
+BA_ "GenMsgCycleTime" BO_ 764 0;
+BA_ "GenMsgSendType" BO_ 764 1;
+BA_ "GenMsgCycleTime" BO_ 1190 0;
+BA_ "GenMsgSendType" BO_ 1190 1;
+BA_ "GenMsgCycleTime" BO_ 1280 100;
+BA_ "GenMsgSendType" BO_ 1280 0;
+BA_ "GenMsgCycleTime" BO_ 1345 100;
+BA_ "GenMsgSendType" BO_ 1345 5;
+BA_ "GenMsgCycleTime" BO_ 1363 200;
+BA_ "GenMsgSendType" BO_ 1363 5;
+BA_ "GenMsgCycleTime" BO_ 1312 100;
+BA_ "GenMsgSendType" BO_ 1312 0;
+BA_ "GenMsgCycleTime" BO_ 1369 200;
+BA_ "GenMsgSendType" BO_ 1369 5;
+BA_ "GenMsgCycleTime" BO_ 127 1000;
+BA_ "GenMsgSendType" BO_ 127 5;
+BA_ "GenMsgCycleTime" BO_ 1294 200;
+BA_ "GenMsgSendType" BO_ 1294 5;
+BA_ "GenMsgCycleTime" BO_ 1107 20;
+BA_ "GenMsgSendType" BO_ 1107 0;
+BA_ "GenMsgCycleTime" BO_ 1225 200;
+BA_ "GenMsgSendType" BO_ 1225 0;
+BA_ "GenMsgCycleTime" BO_ 1384 100;
+BA_ "GenMsgSendType" BO_ 1384 0;
+BA_ "GenMsgCycleTime" BO_ 1394 200;
+BA_ "GenMsgSendType" BO_ 1394 0;
+BA_ "GenMsgCycleTime" BO_ 870 10;
+BA_ "GenMsgSendType" BO_ 870 0;
+BA_ "GenMsgCycleTime" BO_ 871 10;
+BA_ "GenMsgSendType" BO_ 871 0;
+BA_ "GenMsgCycleTime" BO_ 872 10;
+BA_ "GenMsgSendType" BO_ 872 0;
+BA_ "GenMsgCycleTime" BO_ 854 10;
+BA_ "GenMsgSendType" BO_ 854 0;
+BA_ "GenMsgCycleTime" BO_ 1040 200;
+BA_ "GenMsgSendType" BO_ 1040 5;
+BA_ "GenMsgCycleTime" BO_ 1042 200;
+BA_ "GenMsgSendType" BO_ 1042 5;
+BA_ "GenMsgCycleTime" BO_ 67 1000;
+BA_ "GenMsgSendType" BO_ 67 5;
+BA_ "GenMsgCycleTime" BO_ 809 10;
+BA_ "GenMsgSendType" BO_ 809 0;
+BA_ "GenMsgCycleTime" BO_ 608 10;
+BA_ "GenMsgSendType" BO_ 608 0;
+BA_ "GenMsgCycleTime" BO_ 1170 50;
+BA_ "GenMsgSendType" BO_ 1170 0;
+BA_ "GenMsgCycleTime" BO_ 1078 50;
+BA_ "GenMsgSendType" BO_ 1078 5;
+BA_ "GenMsgCycleTime" BO_ 354 10;
+BA_ "GenMsgSendType" BO_ 354 0;
+BA_ "GenMsgCycleTime" BO_ 1427 200;
+BA_ "GenMsgSendType" BO_ 1427 0;
+BA_ "GenMsgCycleTime" BO_ 902 20;
+BA_ "GenMsgSendType" BO_ 902 0;
+BA_ "GenMsgCycleTime" BO_ 1287 100;
+BA_ "GenMsgSendType" BO_ 1287 0;
+BA_ "GenMsgCycleTime" BO_ 897 20;
+BA_ "GenMsgSendType" BO_ 897 0;
+
+BA_ "GenSigSendType" SG_ 1990 DIAG_RQST 1;
+BA_ "GenSigStartValue" SG_ 1990 DIAG_RQST 0;
+BA_ "GenSigSendType" SG_ 1998 DIAG_RSP 1;
+BA_ "GenSigStartValue" SG_ 1998 DIAG_RSP 0;
+BA_ "GenSigSendType" SG_ 2015 FUN_DIAG_RQST 1;
+BA_ "GenSigStartValue" SG_ 2015 FUN_DIAG_RQST 0;
+BA_ "GenSigSendType" SG_ 1265 CF_Clu_CruiseSwState 0;
+BA_ "GenSigStartValue" SG_ 1265 CF_Clu_CruiseSwState 0;
+BA_ "GenSigSendType" SG_ 1265 CF_Clu_CruiseSwMain 0;
+BA_ "GenSigStartValue" SG_ 1265 CF_Clu_CruiseSwMain 0;
+BA_ "GenSigSendType" SG_ 1265 CF_Clu_SldMainSW 0;
+BA_ "GenSigStartValue" SG_ 1265 CF_Clu_SldMainSW 0;
+BA_ "GenSigSendType" SG_ 1265 CF_Clu_ParityBit1 0;
+BA_ "GenSigStartValue" SG_ 1265 CF_Clu_ParityBit1 0;
+BA_ "GenSigSendType" SG_ 1265 CF_Clu_VanzDecimal 0;
+BA_ "GenSigStartValue" SG_ 1265 CF_Clu_VanzDecimal 0;
+BA_ "GenSigSendType" SG_ 1265 CF_Clu_Vanz 0;
+BA_ "GenSigStartValue" SG_ 1265 CF_Clu_Vanz 0;
+BA_ "GenSigSendType" SG_ 1265 CF_Clu_SPEED_UNIT 0;
+BA_ "GenSigStartValue" SG_ 1265 CF_Clu_SPEED_UNIT 0;
+BA_ "GenSigSendType" SG_ 1265 CF_Clu_RheostatLevel 0;
+BA_ "GenSigStartValue" SG_ 1265 CF_Clu_RheostatLevel 12;
+BA_ "GenSigSendType" SG_ 1265 CF_Clu_CluInfo 0;
+BA_ "GenSigStartValue" SG_ 1265 CF_Clu_CluInfo 0;
+BA_ "GenSigSendType" SG_ 1265 CF_Clu_AliveCnt1 0;
+BA_ "GenSigStartValue" SG_ 1265 CF_Clu_AliveCnt1 0;
+BA_ "GenSigSendType" SG_ 1456 CF_Clu_Odometer 0;
+BA_ "GenSigStartValue" SG_ 1456 CF_Clu_Odometer 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_LowfuelWarn 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_LowfuelWarn 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_RefDetMod 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_RefDetMod 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_AvgFCU 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_AvgFCU 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_AvgFCI 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_AvgFCI 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_DrivingModeSwi 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_DrivingModeSwi 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_DTE 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_DTE 1023;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_TripUnit 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_TripUnit 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_SWL_Stat 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_SWL_Stat 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_DrivinglampStat 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_DrivinglampStat 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_ClusterUSM 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_ClusterUSM 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_AltLStatus 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_AltLStatus 0;
+BA_ "GenSigSendType" SG_ 1292 CF_Clu_AliveCnt2 0;
+BA_ "GenSigStartValue" SG_ 1292 CF_Clu_AliveCnt2 0;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_ADrUNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1301 CF_Clu_ADrUNValueSet 0;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_ADrLNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1301 CF_Clu_ADrLNValueSet 0;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_EscortHLNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1301 CF_Clu_EscortHLNValueSet 0;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_WlightNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1301 CF_Clu_WlightNValueSet 0;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_TempUnitNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1301 CF_Clu_TempUnitNValueSet 0;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_OTTurnNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1301 CF_Clu_OTTurnNValueSet 0;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_AFoldNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1301 CF_Clu_AFoldNValueSet 0;
+BA_ "GenSigSendType" SG_ 1301 CF_Clu_PDWSpkrLvNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1301 CF_Clu_PDWSpkrLvNValueSet 0;
+BA_ "GenSigSendType" SG_ 1322 CF_Clu_VehicleSpeed 5;
+BA_ "GenSigStartValue" SG_ 1322 CF_Clu_VehicleSpeed 0;
+BA_ "GenSigSendType" SG_ 1322 CF_Clu_LanguageInfo 5;
+BA_ "GenSigStartValue" SG_ 1322 CF_Clu_LanguageInfo 0;
+BA_ "GenSigSendType" SG_ 1322 CF_Clu_ClusterSound 5;
+BA_ "GenSigStartValue" SG_ 1322 CF_Clu_ClusterSound 0;
+BA_ "GenSigSendType" SG_ 1322 CF_Clu_DisplaySpeed 5;
+BA_ "GenSigStartValue" SG_ 1322 CF_Clu_DisplaySpeed 0;
+BA_ "GenSigSendType" SG_ 1322 CF_Clu_FuelDispLvl 5;
+BA_ "GenSigStartValue" SG_ 1322 CF_Clu_FuelDispLvl 0;
+BA_ "GenSigSendType" SG_ 1307 CF_Clu_TirePressUnitNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1307 CF_Clu_TirePressUnitNValueSet 0;
+BA_ "GenSigSendType" SG_ 1307 CF_Clu_RearWiperNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1307 CF_Clu_RearWiperNValueSet 0;
+BA_ "GenSigSendType" SG_ 1307 CF_Clu_USMReset 1;
+BA_ "GenSigStartValue" SG_ 1307 CF_Clu_USMReset 0;
+BA_ "GenSigSendType" SG_ 1307 CF_Gway_WPCNValueSet 1;
+BA_ "GenSigStartValue" SG_ 1307 CF_Gway_WPCNValueSet 0;
+BA_ "GenSigSendType" SG_ 1307 CF_Clu_ICUDeliveryModeOffReq 1;
+BA_ "GenSigStartValue" SG_ 1307 CF_Clu_ICUDeliveryModeOffReq 0;
+BA_ "GenSigSendType" SG_ 764 CF_Clu_UnlockWelcomeNValueSet 1;
+BA_ "GenSigStartValue" SG_ 764 CF_Clu_UnlockWelcomeNValueSet 0;
+BA_ "GenSigSendType" SG_ 764 CF_Clu_SmartWelcomeNValueSet 1;
+BA_ "GenSigStartValue" SG_ 764 CF_Clu_SmartWelcomeNValueSet 0;
+BA_ "GenSigSendType" SG_ 764 CF_Clu_DrivinglampStatChange 1;
+BA_ "GenSigStartValue" SG_ 764 CF_Clu_DrivinglampStatChange 0;
+BA_ "GenSigSendType" SG_ 1190 CF_AVN_CluUSMReset 1;
+BA_ "GenSigStartValue" SG_ 1190 CF_AVN_CluUSMReset 0;
+BA_ "GenSigSendType" SG_ 1280 CF_SWL_Ind 0;
+BA_ "GenSigStartValue" SG_ 1280 CF_SWL_Ind 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_RKECmd 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_RKECmd 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_DrvDrSw 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_DrvDrSw 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_TrunkTgSw 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_TrunkTgSw 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_SMKOption 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_SMKOption 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_HoodSw 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_HoodSw 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_TurnSigLh 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_TurnSigLh 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_WiperIntT 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_WiperIntT 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_HeadLampHigh 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_HeadLampHigh 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_AstDrSw 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_AstDrSw 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_LightSwState 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_LightSwState 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_Frt_Fog_Act 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_Frt_Fog_Act 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_DriveTypeOption 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_DriveTypeOption 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_PassiveAccessUnlock 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_PassiveAccessUnlock 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_InhibitRMT 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_InhibitRMT 0;
+BA_ "GenSigSendType" SG_ 1345 C_SunRoofOpenState 5;
+BA_ "GenSigStartValue" SG_ 1345 C_SunRoofOpenState 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_ParkBrakeSw 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_ParkBrakeSw 0;
+BA_ "GenSigSendType" SG_ 1345 CF_Gway_TurnSigRh 5;
+BA_ "GenSigStartValue" SG_ 1345 CF_Gway_TurnSigRh 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_ExtTailAct 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_ExtTailAct 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_AutoLightValue 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_AutoLightValue 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_BrakeFluidSw 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_BrakeFluidSw 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_ICUPowerAutoCutMode 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_ICUPowerAutoCutMode 2;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_AvTail 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_AvTail 1;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_RRDrSw 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_RRDrSw 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_RLDrSw 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_RLDrSw 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_ESCLNotLockedWarn 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_ESCLNotLockedWarn 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_ESCLNotUnlockWarn 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_ESCLNotUnlockWarn 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_IDoutWarn 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_IDoutWarn 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_ImmoLp 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_ImmoLp 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_VehicleNotPWarn 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_VehicleNotPWarn 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_DeactivationWarn 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_DeactivationWarn 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_KeyBATDischargeWarn 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_KeyBATDischargeWarn 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_SSBWarn 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_SSBWarn 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_SMKRKECmd 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_SMKRKECmd 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_KeyoutLp 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_KeyoutLp 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_SMKDispWarn 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_SMKDispWarn 0;
+BA_ "GenSigSendType" SG_ 1363 CF_Gway_WngBuz 5;
+BA_ "GenSigStartValue" SG_ 1363 CF_Gway_WngBuz 0;
+BA_ "GenSigSendType" SG_ 1312 CF_Gway_AccINDforCLU 0;
+BA_ "GenSigStartValue" SG_ 1312 CF_Gway_AccINDforCLU 0;
+BA_ "GenSigSendType" SG_ 1369 CF_Gway_WiperSwState 5;
+BA_ "GenSigStartValue" SG_ 1369 CF_Gway_WiperSwState 0;
+BA_ "GenSigSendType" SG_ 1369 CF_Gway_DrvSeatBeltIND 5;
+BA_ "GenSigStartValue" SG_ 1369 CF_Gway_DrvSeatBeltIND 0;
+BA_ "GenSigSendType" SG_ 1369 CF_Gway_AstSeatBeltIND 5;
+BA_ "GenSigStartValue" SG_ 1369 CF_Gway_AstSeatBeltIND 0;
+BA_ "GenSigSendType" SG_ 1369 CF_Gway_RrWiperSwState 5;
+BA_ "GenSigStartValue" SG_ 1369 CF_Gway_RrWiperSwState 0;
+BA_ "GenSigSendType" SG_ 1369 CF_Gway_WPCWarning 5;
+BA_ "GenSigStartValue" SG_ 1369 CF_Gway_WPCWarning 0;
+BA_ "GenSigSendType" SG_ 1369 CF_Gway_SeatBeltWngBuz 5;
+BA_ "GenSigStartValue" SG_ 1369 CF_Gway_SeatBeltWngBuz 0;
+BA_ "GenSigSendType" SG_ 127 C_StopLampLhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_StopLampLhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_StopLampRhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_StopLampRhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_HMSLOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_HMSLOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_HLampLowLhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_HLampLowLhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_HLampLowRhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_HLampLowRhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_HLampHighLhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_HLampHighLhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_HLampHighRhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_HLampHighRhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_FrontFOGLhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_FrontFOGLhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_FrontFOGRhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_FrontFOGRhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_RearTSIGLhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_RearTSIGLhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_RearTSIGRhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_RearTSIGRhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_FrontTSIGLhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_FrontTSIGLhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_FrontTSIGRhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_FrontTSIGRhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_SBendingLhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_SBendingLhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_SBendingRhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_SBendingRhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_HLampBifuncLhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_HLampBifuncLhOpenSts 0;
+BA_ "GenSigSendType" SG_ 127 C_HLampBifuncRhOpenSts 5;
+BA_ "GenSigStartValue" SG_ 127 C_HLampBifuncRhOpenSts 0;
+BA_ "GenSigSendType" SG_ 1294 CF_Gway_BCMWarning 5;
+BA_ "GenSigStartValue" SG_ 1294 CF_Gway_BCMWarning 0;
+BA_ "GenSigSendType" SG_ 1294 CF_Gway_WelcomeSysTitleOption 5;
+BA_ "GenSigStartValue" SG_ 1294 CF_Gway_WelcomeSysTitleOption 0;
+BA_ "GenSigSendType" SG_ 1107 CR_Fatc_OutTempSns 0;
+BA_ "GenSigStartValue" SG_ 1107 CR_Fatc_OutTempSns 510;
+BA_ "GenSigSendType" SG_ 1225 CF_TCU_AvgCltTemp 0;
+BA_ "GenSigStartValue" SG_ 1225 CF_TCU_AvgCltTemp 0;
+BA_ "GenSigSendType" SG_ 1384 L_MIL 0;
+BA_ "GenSigStartValue" SG_ 1384 L_MIL 0;
+BA_ "GenSigSendType" SG_ 1384 CF_Tcu_DriWarn1 0;
+BA_ "GenSigStartValue" SG_ 1384 CF_Tcu_DriWarn1 0;
+BA_ "GenSigSendType" SG_ 1384 CF_Tcu_DriWarn2 0;
+BA_ "GenSigStartValue" SG_ 1384 CF_Tcu_DriWarn2 0;
+BA_ "GenSigSendType" SG_ 1384 CF_Tcu_GSel_BlinkReq 0;
+BA_ "GenSigStartValue" SG_ 1384 CF_Tcu_GSel_BlinkReq 0;
+BA_ "GenSigSendType" SG_ 1384 CF_Tcu_DrivingModeDisp 0;
+BA_ "GenSigStartValue" SG_ 1384 CF_Tcu_DrivingModeDisp 0;
+BA_ "GenSigSendType" SG_ 1384 BAT_SOC 0;
+BA_ "GenSigStartValue" SG_ 1384 BAT_SOC 0;
+BA_ "GenSigSendType" SG_ 1384 CF_Tcu_DrivingModeReq 0;
+BA_ "GenSigStartValue" SG_ 1384 CF_Tcu_DrivingModeReq 0;
+BA_ "GenSigSendType" SG_ 1384 CF_Tcu_DriWarn3 0;
+BA_ "GenSigStartValue" SG_ 1384 CF_Tcu_DriWarn3 0;
+BA_ "GenSigSendType" SG_ 1384 Bat_dischrg 0;
+BA_ "GenSigStartValue" SG_ 1384 Bat_dischrg 0;
+BA_ "GenSigSendType" SG_ 1394 TPMS_W_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1394 TPMS_W_LAMP 0;
+BA_ "GenSigSendType" SG_ 1394 HILL_HOLD_WARNING 0;
+BA_ "GenSigStartValue" SG_ 1394 HILL_HOLD_WARNING 0;
+BA_ "GenSigSendType" SG_ 1394 Clutch_Burst_Warning 0;
+BA_ "GenSigStartValue" SG_ 1394 Clutch_Burst_Warning 0;
+BA_ "GenSigSendType" SG_ 1394 Vehicle_Stop_Time 0;
+BA_ "GenSigStartValue" SG_ 1394 Vehicle_Stop_Time 0;
+BA_ "GenSigSendType" SG_ 870 N 0;
+BA_ "GenSigStartValue" SG_ 870 N 0;
+BA_ "GenSigSendType" SG_ 870 F_N_ENG 0;
+BA_ "GenSigStartValue" SG_ 870 F_N_ENG 0;
+BA_ "GenSigSendType" SG_ 871 SLD_VS 0;
+BA_ "GenSigStartValue" SG_ 871 SLD_VS 0;
+BA_ "GenSigSendType" SG_ 871 CF_Ems_IsgStat 0;
+BA_ "GenSigStartValue" SG_ 871 CF_Ems_IsgStat 0;
+BA_ "GenSigSendType" SG_ 871 CF_Ems_UpTarGr 0;
+BA_ "GenSigStartValue" SG_ 871 CF_Ems_UpTarGr 0;
+BA_ "GenSigSendType" SG_ 871 CF_Ems_DownTarGr 0;
+BA_ "GenSigStartValue" SG_ 871 CF_Ems_DownTarGr 0;
+BA_ "GenSigSendType" SG_ 871 CF_Ems_DesCurGr 0;
+BA_ "GenSigStartValue" SG_ 871 CF_Ems_DesCurGr 0;
+BA_ "GenSigSendType" SG_ 871 G_SEL_DISP 0;
+BA_ "GenSigStartValue" SG_ 871 G_SEL_DISP 9;
+BA_ "GenSigSendType" SG_ 871 GEAR_TYPE 0;
+BA_ "GenSigStartValue" SG_ 871 GEAR_TYPE 0;
+BA_ "GenSigSendType" SG_ 872 VS_TCU 0;
+BA_ "GenSigStartValue" SG_ 872 VS_TCU 0;
+BA_ "GenSigSendType" SG_ 872 VS_TCU_DECIMAL 0;
+BA_ "GenSigStartValue" SG_ 872 VS_TCU_DECIMAL 0;
+BA_ "GenSigSendType" SG_ 872 CF_Tcu_TarGr 0;
+BA_ "GenSigStartValue" SG_ 872 CF_Tcu_TarGr 0;
+BA_ "GenSigSendType" SG_ 872 TCU_RPM_Cluster 0;
+BA_ "GenSigStartValue" SG_ 872 TCU_RPM_Cluster 0;
+BA_ "GenSigSendType" SG_ 872 TCU_RPM_Flag 0;
+BA_ "GenSigStartValue" SG_ 872 TCU_RPM_Flag 0;
+BA_ "GenSigSendType" SG_ 872 TCU_TYPE 0;
+BA_ "GenSigStartValue" SG_ 872 TCU_TYPE 0;
+BA_ "GenSigSendType" SG_ 854 FCO 0;
+BA_ "GenSigStartValue" SG_ 854 FCO 0;
+BA_ "GenSigSendType" SG_ 1040 CF_Gway_EscortHLRValue 5;
+BA_ "GenSigStartValue" SG_ 1040 CF_Gway_EscortHLRValue 0;
+BA_ "GenSigSendType" SG_ 1040 CF_Gway_ADrLRValue 5;
+BA_ "GenSigStartValue" SG_ 1040 CF_Gway_ADrLRValue 0;
+BA_ "GenSigSendType" SG_ 1040 CF_Gway_ADrURValue 5;
+BA_ "GenSigStartValue" SG_ 1040 CF_Gway_ADrURValue 0;
+BA_ "GenSigSendType" SG_ 1040 CF_Gway_WlightRValue 5;
+BA_ "GenSigStartValue" SG_ 1040 CF_Gway_WlightRValue 0;
+BA_ "GenSigSendType" SG_ 1040 CF_Gway_OTTurnRValue 5;
+BA_ "GenSigStartValue" SG_ 1040 CF_Gway_OTTurnRValue 0;
+BA_ "GenSigSendType" SG_ 1040 CF_Gway_RearWiperRValue 5;
+BA_ "GenSigStartValue" SG_ 1040 CF_Gway_RearWiperRValue 0;
+BA_ "GenSigSendType" SG_ 1040 CF_Gway_WPCRValue 5;
+BA_ "GenSigStartValue" SG_ 1040 CF_Gway_WPCRValue 0;
+BA_ "GenSigSendType" SG_ 1042 CF_Gway_AFoldRValue 5;
+BA_ "GenSigStartValue" SG_ 1042 CF_Gway_AFoldRValue 0;
+BA_ "GenSigSendType" SG_ 67 CF_Datc_TempDispUnit 5;
+BA_ "GenSigStartValue" SG_ 67 CF_Datc_TempDispUnit 0;
+BA_ "GenSigSendType" SG_ 809 TEMP_ENG 0;
+BA_ "GenSigStartValue" SG_ 809 TEMP_ENG 340;
+BA_ "GenSigSendType" SG_ 608 GLOW_STAT 0;
+BA_ "GenSigStartValue" SG_ 608 GLOW_STAT 1;
+BA_ "GenSigSendType" SG_ 608 CRUISE_LAMP_M 0;
+BA_ "GenSigStartValue" SG_ 608 CRUISE_LAMP_M 0;
+BA_ "GenSigSendType" SG_ 608 CRUISE_LAMP_S 0;
+BA_ "GenSigStartValue" SG_ 608 CRUISE_LAMP_S 0;
+BA_ "GenSigSendType" SG_ 608 ENG_STAT 0;
+BA_ "GenSigStartValue" SG_ 608 ENG_STAT 0;
+BA_ "GenSigSendType" SG_ 1170 DPF_LAMP_STAT 0;
+BA_ "GenSigStartValue" SG_ 1170 DPF_LAMP_STAT 0;
+BA_ "GenSigSendType" SG_ 1170 BAT_LAMP_STAT 0;
+BA_ "GenSigStartValue" SG_ 1170 BAT_LAMP_STAT 0;
+BA_ "GenSigSendType" SG_ 1170 CF_Ems_OPSFail 0;
+BA_ "GenSigStartValue" SG_ 1170 CF_Ems_OPSFail 0;
+BA_ "GenSigSendType" SG_ 1078 CF_Gway_PDWRsound 5;
+BA_ "GenSigStartValue" SG_ 1078 CF_Gway_PDWRsound 0;
+BA_ "GenSigSendType" SG_ 1078 CF_Gway_PDWDisplayRCTR 5;
+BA_ "GenSigStartValue" SG_ 1078 CF_Gway_PDWDisplayRCTR 0;
+BA_ "GenSigSendType" SG_ 1078 CF_Gway_PDWDisplayRLH 5;
+BA_ "GenSigStartValue" SG_ 1078 CF_Gway_PDWDisplayRLH 0;
+BA_ "GenSigSendType" SG_ 1078 CF_Gway_PDWDisplayRRH 5;
+BA_ "GenSigStartValue" SG_ 1078 CF_Gway_PDWDisplayRRH 0;
+BA_ "GenSigSendType" SG_ 1078 CF_Gway_PDWCheckSound 5;
+BA_ "GenSigStartValue" SG_ 1078 CF_Gway_PDWCheckSound 0;
+BA_ "GenSigSendType" SG_ 1078 CF_Gway_PDWSystemOn 5;
+BA_ "GenSigStartValue" SG_ 1078 CF_Gway_PDWSystemOn 0;
+BA_ "GenSigSendType" SG_ 1078 CF_Gway_PDWOption 5;
+BA_ "GenSigStartValue" SG_ 1078 CF_Gway_PDWOption 0;
+BA_ "GenSigSendType" SG_ 354 Cluster_Engine_RPM 0;
+BA_ "GenSigStartValue" SG_ 354 Cluster_Engine_RPM 0;
+BA_ "GenSigSendType" SG_ 354 Cluster_Engine_RPM_Flag 0;
+BA_ "GenSigStartValue" SG_ 354 Cluster_Engine_RPM_Flag 0;
+BA_ "GenSigSendType" SG_ 1427 TPMS_W_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1427 TPMS_W_LAMP 0;
+BA_ "GenSigSendType" SG_ 1427 TREAD_W_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1427 TREAD_W_LAMP 0;
+BA_ "GenSigSendType" SG_ 1427 POS_FL_W_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1427 POS_FL_W_LAMP 0;
+BA_ "GenSigSendType" SG_ 1427 POS_FR_W_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1427 POS_FR_W_LAMP 0;
+BA_ "GenSigSendType" SG_ 1427 POS_RL_W_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1427 POS_RL_W_LAMP 0;
+BA_ "GenSigSendType" SG_ 1427 POS_RR_W_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1427 POS_RR_W_LAMP 0;
+BA_ "GenSigSendType" SG_ 1427 STATUS_TPMS 0;
+BA_ "GenSigStartValue" SG_ 1427 STATUS_TPMS 0;
+BA_ "GenSigSendType" SG_ 1427 UNIT 0;
+BA_ "GenSigStartValue" SG_ 1427 UNIT 0;
+BA_ "GenSigSendType" SG_ 1427 PRESSURE_FL 0;
+BA_ "GenSigStartValue" SG_ 1427 PRESSURE_FL 0;
+BA_ "GenSigSendType" SG_ 1427 PRESSURE_FR 0;
+BA_ "GenSigStartValue" SG_ 1427 PRESSURE_FR 0;
+BA_ "GenSigSendType" SG_ 1427 PRESSURE_RL 0;
+BA_ "GenSigStartValue" SG_ 1427 PRESSURE_RL 0;
+BA_ "GenSigSendType" SG_ 1427 PRESSURE_RR 0;
+BA_ "GenSigStartValue" SG_ 1427 PRESSURE_RR 0;
+BA_ "GenSigSendType" SG_ 902 WHL_SPD_FL 0;
+BA_ "GenSigStartValue" SG_ 902 WHL_SPD_FL 0;
+BA_ "GenSigSendType" SG_ 902 WHL_SPD_FR 0;
+BA_ "GenSigStartValue" SG_ 902 WHL_SPD_FR 0;
+BA_ "GenSigSendType" SG_ 902 WHL_SPD_RL 0;
+BA_ "GenSigStartValue" SG_ 902 WHL_SPD_RL 0;
+BA_ "GenSigSendType" SG_ 902 WHL_SPD_RR 0;
+BA_ "GenSigStartValue" SG_ 902 WHL_SPD_RR 0;
+BA_ "GenSigSendType" SG_ 1287 ABS_W_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1287 ABS_W_LAMP 0;
+BA_ "GenSigSendType" SG_ 1287 TCS_OFF_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1287 TCS_OFF_LAMP 0;
+BA_ "GenSigSendType" SG_ 1287 TCS_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1287 TCS_LAMP 0;
+BA_ "GenSigSendType" SG_ 1287 ESC_Off_Step 0;
+BA_ "GenSigStartValue" SG_ 1287 ESC_Off_Step 0;
+BA_ "GenSigSendType" SG_ 1287 AVH_CLU 0;
+BA_ "GenSigStartValue" SG_ 1287 AVH_CLU 0;
+BA_ "GenSigSendType" SG_ 1287 EBD_W_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1287 EBD_W_LAMP 0;
+BA_ "GenSigSendType" SG_ 1287 AVH_ALARM 0;
+BA_ "GenSigStartValue" SG_ 1287 AVH_ALARM 0;
+BA_ "GenSigSendType" SG_ 1287 AVH_LAMP 0;
+BA_ "GenSigStartValue" SG_ 1287 AVH_LAMP 0;
+BA_ "GenSigSendType" SG_ 897 CF_Mdps_WLmp 0;
+BA_ "GenSigStartValue" SG_ 897 CF_Mdps_WLmp 0;
+
+VAL_ 1265 CF_Clu_CruiseSwState 0 "Idle Position0x1:ResumePlus0x2:SetMinus0x3:Time gap Distance SCC only0x4:ACCSCC cancel0x7:Reserved";
+
+VAL_ 1265 CF_Clu_CruiseSwMain 0 "Off0x1:On";
+
+VAL_ 1265 CF_Clu_SldMainSW 0 "Off0x1:On";
+
+VAL_ 1265 CF_Clu_VanzDecimal 0 "00x1:01250x2:02500x3:0375";
+
+VAL_ 1265 CF_Clu_SPEED_UNIT 0 "kmh0x1:MPH";
+
+VAL_ 1265 CF_Clu_CluInfo 0 "Display is not applied0x1:Display is applied";
+
+VAL_ 1292 CF_Clu_LowfuelWarn 0 "Low fuel Warning is off0x1:Low fuel Warning is on0x2:Not used0x3:Invalid";
+
+VAL_ 1292 CF_Clu_RefDetMod 0 "Non refuel detected0x1:Refuel detected";
+
+VAL_ 1292 CF_Clu_AvgFCU 0 "kmL0x1:L100km0x2:MPGUS0x3:MPGUK";
+
+VAL_ 1292 CF_Clu_DrivingModeSwi 0 "Normal0x1:Sports0x2:Snow0x3:Eco";
+
+VAL_ 1292 CF_Clu_DTE 0 "0 Display  on0x10x3FE:Valid DTE 11022km0x3FF:Invalid Display  blinking 1Hz";
+
+VAL_ 1292 CF_Clu_TripUnit 0 "Not Used0x1:km0x2:mile0x3:Invailid";
+
+VAL_ 1292 CF_Clu_SWL_Stat 0 "Lamp OFF0x1:Lamp On0x2:Lamp Flashing0x3:ACU message error0x7:Lamp Circuit Failure";
+
+VAL_ 1292 CF_Clu_DrivinglampStat 0 "Reserved0x1:Normal0x2:Eco0x3:Sport0x4:Sport0x5:Smart0x6:Individual0x7:Nmode";
+
+VAL_ 1292 CF_Clu_ClusterUSM 0 "Default0x1:Cluster not applied USM0x2:Cluster applied USM0x3:Reserved";
+
+VAL_ 1292 CF_Clu_AltLStatus 0 "Off Low0x1:On Open or High";
+
+VAL_ 1301 CF_Clu_ADrUNValueSet 0 "Default0x1:Off0x2:Key Out On AllDoors0x3:Shift Lever On AllDoors0x4:Reserved0x5:Invalid0x6:Key Out On Driver Door0x7:Shift Lever On Driver Door";
+
+VAL_ 1301 CF_Clu_ADrLNValueSet 0 "Default0x1:Off0x2:Vehicle Speed On 15Km0x3:Shift Lever On0x4:Invalid";
+
+VAL_ 1301 CF_Clu_EscortHLNValueSet 0 "Default Value0x1:Escort Off0x2:Escort On0x3:Invalid";
+
+VAL_ 1301 CF_Clu_WlightNValueSet 0 "Default Value0x1:Welcome Light Off0x2:Welcome Light On0x3:Invalid";
+
+VAL_ 1301 CF_Clu_TempUnitNValueSet 0 "Off0x1:Centigrade0x2:Fahrenheit0x3:Invalid";
+
+VAL_ 1301 CF_Clu_OTTurnNValueSet 0 "Default0x1:One Touch Turn Off0x2:3 Flashing0x3:5 Flashing0x4:7 Flashing0x5:Invalid0x6:Reserved0x7:Reserved";
+
+VAL_ 1301 CF_Clu_AFoldNValueSet 0 "Default0x1:Off0x2:On0x3:Invalid";
+
+VAL_ 1301 CF_Clu_PDWSpkrLvNValueSet 0 "Default0x1:Level 10x2:Level 20x3:Level 30x4:Reserved0x5:Reserved0x6:Reserved0x7:Invalid Error Value";
+
+VAL_ 1322 CF_Clu_ClusterSound 0 "Cluster applied speaker0x1:Cluster applied buzzer";
+
+VAL_ 1307 CF_Clu_TirePressUnitNValueSet 0 "Default Value0x1:psi0x2:kpa0x3:bar0x4:Reserved0x5:Reserved0x6:Reserved0x7:Invalid";
+
+VAL_ 1307 CF_Clu_RearWiperNValueSet 0 "Default0x1:Rear Wiperreverse Off0x2:Rear Wiperreverse On0x3:Invalid";
+
+VAL_ 1307 CF_Clu_USMReset 0 "Defualt0x1:Reset";
+
+VAL_ 1307 CF_Gway_WPCNValueSet 0 "Default0x1:OffDisable0x2:OnEnable0x3:Invalid";
+
+VAL_ 1307 CF_Clu_ICUDeliveryModeOffReq 0 "Default0x1:OFF Request";
+
+VAL_ 764 CF_Clu_UnlockWelcomeNValueSet 0 "Default Value0x1:Off0x2:On0x3:Invalid";
+
+VAL_ 764 CF_Clu_SmartWelcomeNValueSet 0 "Default Value0x1:Off0x2:On0x3:Invalid";
+
+VAL_ 764 CF_Clu_DrivinglampStatChange 0 "Reserved0x1:Normal0x2:Eco0x3:Sport0x4:Sport0x5:Smart0x6:Custom0x7:Nmode";
+
+VAL_ 1190 CF_AVN_CluUSMReset 0 "Defualt0x1:Reset";
+
+VAL_ 1280 CF_SWL_Ind 0 "Warning Lamp on0x1:Warning Lamp off0x2:Warning Lamp flash0x3:Not used";
+
+VAL_ 1345 CF_Gway_RKECmd 0 "None0x1:Lock0x2:Unlock0x3:Panic0x4:Panic Stop0x5:TrunkOr Tail Gate0x6:Reserved0x7:Reserved";
+
+VAL_ 1345 CF_Gway_DrvDrSw 0 "Close0x1:Open0x3:BCAN signal Timeout";
+
+VAL_ 1345 CF_Gway_TrunkTgSw 0 "Trunk Close0x1:Trunk Open0x3:BCAN Timeout";
+
+VAL_ 1345 CF_Gway_SMKOption 0 "Non SMK Option0x1:SMK Option";
+
+VAL_ 1345 CF_Gway_HoodSw 0 "Hood Close0x1:Hood Open0x3:BCAN signal Timeout";
+
+VAL_ 1345 CF_Gway_TurnSigLh 0 "Off0x1:On0x3:BCAN Timeout";
+
+VAL_ 1345 CF_Gway_WiperIntT 0 "Step1SLOW0x1:Step20x2:Step30x3:Step40x4:Step5FAST";
+
+VAL_ 1345 CF_Gway_HeadLampHigh 0 "Off0x1:On";
+
+VAL_ 1345 CF_Gway_AstDrSw 0 "Close0x1:Open";
+
+VAL_ 1345 CF_Gway_LightSwState 0 "Light Sw Off0x1:Tail Sw On0x2:HeadLamp Low Sw On0x3:AutoLight Sw On or DRL Sw On USA NonAutolight";
+
+VAL_ 1345 CF_Gway_Frt_Fog_Act 0 "OFF0x1:ON";
+
+VAL_ 1345 CF_Gway_DriveTypeOption 0 "LHD0x1:RHD";
+
+VAL_ 1345 CF_Gway_PassiveAccessUnlock 0 "None0x1:UnLock0x2:Unlock only DRV Door0x3:PIC_Key_Reminder";
+
+VAL_ 1345 CF_Gway_InhibitRMT 0 "Gear_R Switch Off0x1:Gear_R Switch On0x3:BCAN signal Timeout";
+
+VAL_ 1345 C_SunRoofOpenState 0 "close0x1:open";
+
+VAL_ 1345 CF_Gway_ParkBrakeSw 0 "Off0x1:On0x3:BCAN Timeout";
+
+VAL_ 1345 CF_Gway_TurnSigRh 0 "Off0x1:On0x3:BCAN Timeout";
+
+VAL_ 1363 CF_Gway_ExtTailAct 0 "Off0x1:On0x3:BCAN Timeout";
+
+VAL_ 1363 CF_Gway_AutoLightValue 0 "OFF0x1:Night";
+
+VAL_ 1363 CF_Gway_BrakeFluidSw 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_ICUPowerAutoCutMode 0 "Factory Mode default0x1:Dealer Mode0x2:Customer Mode0x3:Reserved  ";
+
+VAL_ 1363 CF_Gway_AvTail 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_RRDrSw 0 "Close0x1:Open";
+
+VAL_ 1363 CF_Gway_RLDrSw 0 "Close0x1:Open";
+
+VAL_ 1363 CF_Gway_ESCLNotLockedWarn 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_ESCLNotUnlockWarn 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_IDoutWarn 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_ImmoLp 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_VehicleNotPWarn 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_DeactivationWarn 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_KeyBATDischargeWarn 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_SSBWarn 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_SMKRKECmd 0 "None0x1:Lock0x2:Unlock0x3:Trunkor Tail Gate0x4:Panic0x5:Panic Stop0x6:Two Step Unlock Warning";
+
+VAL_ 1363 CF_Gway_KeyoutLp 0 "Off0x1:On";
+
+VAL_ 1363 CF_Gway_SMKDispWarn 0 "Off0x1:Shift_P_Warning0x2:Key_Bat_Discharge_Warning0x3:Not_Unlocked_Warning0x4:AC_Plug_Connected_WarningEVPHEV0x5:Escl_Ecu_Fail_Warning0x6:Engine_Start_Operation_IND0x7:Auth_Fail_Warning0x8:Key_Removal_IND0x9:SMK_Lamp_Warning0xA:SSB_Warning0xB:Auth_Fail_Warning20xC:Vehicle_Not_P_Warning0xD:Stop Lamp Fuse Fail Warning0xE:Not P_N Warning";
+
+VAL_ 1363 CF_Gway_WngBuz 0 "Off0x1:SeatBelt Warning0x2:Key Operated Warning0x3:Parking Brake Warning0x4:Sun Roof Open Warning0x5:Key Learning SoundNoSMKOption0x6:ICE Warning0x7:Rear Fog Warning";
+
+VAL_ 1312 CF_Gway_AccINDforCLU 0 "Cluster ACC Indicator Off0x1:Cluster ACC Indicator On";
+
+VAL_ 1369 CF_Gway_WiperSwState 0 "Wiper Sw Off0x1:Wiper Int or Auto Sw On Refer to CF_Gway_RainSnsOption0x2:Wiper Low Sw On0x3:Wiper High Sw On";
+
+VAL_ 1369 CF_Gway_DrvSeatBeltIND 0 "Off0x1:Blinking0x2:On";
+
+VAL_ 1369 CF_Gway_AstSeatBeltIND 0 "Off0x1:Blinking0x2:On";
+
+VAL_ 1369 CF_Gway_RrWiperSwState 0 "Rr Wiper Sw Off0x1:Rr Wiper Low Sw On0x2:Rr Wiper High Sw On0x3:Reserved";
+
+VAL_ 1369 CF_Gway_WPCWarning 0 "Off0x1:Cellphone on the pad0x2:Charging0x3:Charging complete0x4:Cellphone reminder0x50x6:Reserved0x7:Invalid";
+
+VAL_ 1369 CF_Gway_SeatBeltWngBuz 0 "Off0x1:On";
+
+VAL_ 127 C_StopLampLhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_StopLampRhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_HMSLOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_HLampLowLhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_HLampLowRhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_HLampHighLhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_HLampHighRhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_FrontFOGLhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_FrontFOGRhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_RearTSIGLhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_RearTSIGRhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_FrontTSIGLhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_FrontTSIGRhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_SBendingLhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_SBendingRhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_HLampBifuncLhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 127 C_HLampBifuncRhOpenSts 0 "Normal0x1:Open Status";
+
+VAL_ 1294 CF_Gway_BCMWarning 0 "Off0x1:Power off warning0x2:Not p warning0x30x7:Reserved";
+
+VAL_ 1294 CF_Gway_WelcomeSysTitleOption 0 "Default Value0x1:Welcome Mirror Light0x2:Welcome Mirror0x3:Welcome Light Reserved0x40x7:Reserved";
+
+VAL_ 1384 L_MIL 0 "Check Engine lamp OFF0x1:Check Engine lamp ON";
+
+VAL_ 1384 CF_Tcu_DriWarn2 0 "Normal Display0x1:Clutch OFF0x2:NoneEOL0x3:Not Used";
+
+VAL_ 1384 CF_Tcu_GSel_BlinkReq 0 "No blink0x1:Reqeust lamp blinking";
+
+VAL_ 1384 CF_Tcu_DrivingModeDisp 0 "Inactive0x1:Normal0x2:Eco0x3:Eco0x4:Sport0x5:Sport0x6:Snow0x7:Reserved";
+
+VAL_ 1384 CF_Tcu_DrivingModeReq 0 "Inactive0x1:Normal0x2:Eco0x3:Eco0x4:Sport0x5:Sport0x6:Snow0x7:Reserved";
+
+VAL_ 1384 CF_Tcu_DriWarn3 0 "Normal0x1:Warning message30x2:Warning message40x3:Reserve";
+
+VAL_ 1394 TPMS_W_LAMP 0 "TPMS Malfunction Warning lamp OFF0x1:TPMS Malfunction Warning lamp ON0x2:TPMS Malfunction Warning lamp BLINKING2Hz0x3:Reserved";
+
+VAL_ 870 F_N_ENG 0 "No error0x1:Engine speed sensor defective";
+
+VAL_ 871 CF_Ems_IsgStat 0 "ISG is not operatingNormal engine operating without ISG0x1:Idle stop is activatedIdle is stopped by ECU during driving0x2:Automatically started by ECU Engine is automatically started by ECU regardless drivers volition during idle stop becau";
+
+VAL_ 871 CF_Ems_UpTarGr 0 "Gear Shiftup Display Off0x1:Gear Shiftup Display On";
+
+VAL_ 871 CF_Ems_DownTarGr 0 "Gear Shiftdown Display Off0x1:Gear Shiftdown Display On";
+
+VAL_ 871 CF_Ems_DesCurGr 0 "No display0x1:Gear Position 1 display0x2:Gear Position 2 display0x3:Gear Position 3 display0x4:Gear Position 4 display0x5:Gear Position 5 display0x6:Gear Position 6 display0x7:Gear Position 7 display0x8:Gear Position 8 display0x9:Gear Position 9 display0xA:Gear Position 10 display";
+
+VAL_ 871 G_SEL_DISP 0 "P0x1:L0x2:20x3:30x4:DS Mode0x5:D0x6:N0x7:R0x8:sports mode  manual shift  paddle shift0x9:Not Display at Cluster0xA:SubRom Communication0xB:SubRom Communication Error0xC:Paddle shift Dposition0xD:Reserved0xE:Intermediate Position0xF:fault";
+
+VAL_ 871 GEAR_TYPE 0 "3  Speed AT or DCT0x4:4  Speed AT or DCT0x5:5  Speed AT or DCT0x6:6  Speed AT or DCT0x7:7  Speed AT or DCT0x8:8  Speed AT or DCT";
+
+VAL_ 872 CF_Tcu_TarGr 0 "if N or P are detected no frictional connection0x1:1st speed0x2:2nd speed0x3:3rd speed0x4:4th speed0x5:5th speed0x6:6th speed0x7:7th speed0x8:8th speed0xE:Reverse speed";
+
+VAL_ 872 TCU_TYPE 0 "Reserved0x1:Step AT0x2:CVT0x3:DCT";
+
+VAL_ 1040 CF_Gway_EscortHLRValue 0 "Default Value0x1:Escort Off0x2:Escort On0x3:Invalid";
+
+VAL_ 1040 CF_Gway_ADrLRValue 0 "Default Value0x1:Off0x2:Vehicle Speed On15km0x3:Shift Lever On0x4:Invalid";
+
+VAL_ 1040 CF_Gway_ADrURValue 0 "Default0x1:Off0x2:Key Out On AllDoors0x3:Shift Lever On AllDoors0x4:Reserved0x5:Invalid0x6:Key Out On Driver Door0x7:Shift Lever On Driver Door";
+
+VAL_ 1040 CF_Gway_WlightRValue 0 "Default Value0x1:Welcome Light Off0x2:Welcome Light On0x3:Invalid";
+
+VAL_ 1040 CF_Gway_OTTurnRValue 0 "Default0x1:One Touch Turn Off0x2:3 Flashing0x3:5 Flashing0x4:7 Flashing0x5:Invalid";
+
+VAL_ 1040 CF_Gway_RearWiperRValue 0 "Default Value0x1:Rear Wiperreverse Off0x2:Rear Wiperreverse On0x3:Invalid";
+
+VAL_ 1040 CF_Gway_WPCRValue 0 "Default0x1:OffDisable0x2:OnEnable0x3:Invalid";
+
+VAL_ 1042 CF_Gway_AFoldRValue 0 "Default0x1:Off0x2:On0x3:Invalid";
+
+VAL_ 67 CF_Datc_TempDispUnit 0 "Centigrade0x1:Fahrenheit";
+
+VAL_ 608 GLOW_STAT 0 "Lamp Off0x1:Lamp On";
+
+VAL_ 608 CRUISE_LAMP_M 0 "Cruise MAIN switch indication lamp turn OFF0x1:Cruise MAIN switch indication lamp turn ON";
+
+VAL_ 608 CRUISE_LAMP_S 0 "Cruise SET switch indication lamp turn OFF0x1:Cruise SET switch indication lamp turn ON";
+
+VAL_ 608 ENG_STAT 0 "Engine Stop0x1:Cranking0x2:Stalled0x3:Running0x4:Reserved0x5:Reserved0x6:Reserved0x7:Fault";
+
+VAL_ 1170 DPF_LAMP_STAT 0 "DPF Warning Lamp OFF0x1:DPF Warning Lamp ON0x2:Reserved0x3:Reserved";
+
+VAL_ 1170 BAT_LAMP_STAT 0 "Battery Warning Lamp OFF0x1:Battery Warning Lamp ON";
+
+VAL_ 1170 CF_Ems_OPSFail 0 "Oil Pressure Warning Lamp OFF0x1:Oil Pressure Warning Lamp ON";
+
+VAL_ 1078 CF_Gway_PDWRsound 0 "OFF No warning alarm0x1:1st warning0x2:2nd warning0x3:3rd warning";
+
+VAL_ 1078 CF_Gway_PDWDisplayRCTR 0 "Off0x1:1st warning0x2:2nd warning0x3:3rd warning0x4:Error";
+
+VAL_ 1078 CF_Gway_PDWDisplayRLH 0 "Off0x1:1st warning0x2:2nd warning0x3:3rd warning0x4:Error";
+
+VAL_ 1078 CF_Gway_PDWDisplayRRH 0 "Off0x1:1st warning0x2:2nd warning0x3:3rd warning0x4:Error";
+
+VAL_ 1078 CF_Gway_PDWCheckSound 0 "Off0x1:R_Confirm0x2:Error0x3:Reserved";
+
+VAL_ 1078 CF_Gway_PDWSystemOn 0 "OFF0x1:ON0x2:reserved0x3:reserved";
+
+VAL_ 1078 CF_Gway_PDWOption 0 "Non0x1:PDWR0x2:PDW0x3:reserved";
+
+VAL_ 1427 TPMS_W_LAMP 0 "TPMS Malfunction Warning lamp OFF0x1:TPMS Malfunction Warning lamp ON0x2:TPMS Malfunction Warning lamp BLINKING2Hz0x3:Reserved";
+
+VAL_ 1427 TREAD_W_LAMP 0 "TREAD Warning lamp OFF0x1:TREAD Warning lamp ON0x2:TREAD Warning lamp BLINKING2Hz0x3:Reserved";
+
+VAL_ 1427 POS_FL_W_LAMP 0 "FL POSITION Warning lamp OFF0x1:FL POSITION Warning lamp ON";
+
+VAL_ 1427 POS_FR_W_LAMP 0 "FR POSITION Warning lamp OFF0x1:FR POSITION Warning lamp ON";
+
+VAL_ 1427 POS_RL_W_LAMP 0 "RL POSITION Warning lamp OFF0x1:RL POSITION Warning lamp ON";
+
+VAL_ 1427 POS_RR_W_LAMP 0 "RR POSITION Warning lamp OFF0x1:RR POSITION Warning lamp ON";
+
+VAL_ 1427 STATUS_TPMS 0 "inactive0x1:active0x2:reserved0x3:reserved0x4:reserved0x5:reserved0x6:reserved0x7:reserved";
+
+VAL_ 1427 UNIT 0 "psi0x1:kpa0x2:bar0x3:reserved";
+
+VAL_ 1287 ABS_W_LAMP 0 "ABS Warning lamp OFF0x1:ABS Warning lamp ON";
+
+VAL_ 1287 TCS_OFF_LAMP 0 "TCSESC OFF SW Lamp OFF0x1:TCSESC OFF SW Lamp ON";
+
+VAL_ 1287 TCS_LAMP 0 "TCSESC FunctionWarning Lamp OFF0x1:TCSESC FunctionWarning Lamp ON0x2:TCSESC FunctionWarning Lamp BLINKING2Hz0x3:Reserved";
+
+VAL_ 1287 ESC_Off_Step 0 "Normal Mode0x1:Sports Mode0x2:Off Mode0x3:ESC OFF SW is defective failed";
+
+VAL_ 1287 AVH_CLU 0 "AVH is off0x1:AUTO HOLD to be deactivated Press Brake Pedal0x2:Press Brake Pedal to Release AUTO HOLD0x3:AUTO HOLD cannot be activated Close Seat Belt Door Hood Trunk0x4:AUTO HOLD cannot be activated Close Seat Belt Door Hood0x5:AUTO HOLD cannot be deactivated Close Door";
+
+VAL_ 1287 EBD_W_LAMP 0 "EBD Warning lamp OFF0x1:EBD Warning lamp ON";
+
+VAL_ 1287 AVH_ALARM 0 "No alarm0x1:On AVH Activation Vehicle is not secured and driver is still inside  comfortable tone";
+
+VAL_ 1287 AVH_LAMP 0 "AVH Off Lamp Status0x1:AVH failure Lamp Status0x2:AVH ACTIVE Lamp Status0x3:AVH READY Lamp Status0x4:Lamp Status0x5:Lamp Status0x6:Lamp Status";
+
+VAL_ 897 CF_Mdps_WLmp 0 "MDPS Malfunction Warning lamp OFF0x1:MDPS Malfunciton Warning lamp BLANKING2Hz0x2:MDPS Malfunction Warning lamp ON0x3:MDPS Malfunction Warning lamp BLANKING1Hz";
+
