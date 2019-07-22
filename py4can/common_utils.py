@@ -87,9 +87,9 @@ def _path_safe(func, exec_dir):
     return wrapper
 
 
-def path_safe():
-    return partial(_path_safe, exec_dir=None)
+def path_safe(exec_dir=None):
+    return partial(_path_safe, exec_dir)
 
 
 def exec_in_path(func, path, *args, **kwargs):
-    return path_safe(path)(func)(*args, **kwargs)
+    return path_safe(func)(path)(*args, **kwargs)
